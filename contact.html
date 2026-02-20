@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact | RK Adarsh Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>RK Adarsh</h1>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+
+  
+
+<section class="contact-section">
+  <div class="contact-card">
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-item">📍 RK Adarsh Restaurant</div>
+
+    <div class="contact-item">
+      📞 <a href="tel:07739755767">07739 755767</a>
+    </div>
+
+    <div class="contact-item">
+      💬 <a href="https://wa.me/917739755767" target="_blank">
+        Order on WhatsApp
+      </a>
+    </div>
+
+    <p class="open-status">
+      🟢 Open Now <span>(9 AM – 9 PM)</span>
+    </p>
+
+  </div>
+</section>
+
+    <div class="map-box">
+<a
+  href="https://www.google.com/maps/dir/?api=1&destination=RK+Adarsh+Restaurant"
+  target="_blank"
+  class="directions-btn"
+>
+  📍 Get Directions
+</a>
+
+ 
+       
+<p style="margin-bottom:10px;color:#475569;">
+  Find us easily on Google Maps
+</p>
+
+      <!-- RIGHT: MAP -->
+      <div class="map-card">
+        <iframe
+          src="https://www.google.com/maps?q=RK%20Adarsh%20Restaurant&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 RK Adarsh Restaurant
+</footer>
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector("nav");
+  nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+}
+</script>
+
+<script>
+function toggleMenu() {
+  document.querySelector("nav").classList.toggle("active");
+}
+</script>
+
+<a href="tel:07739755767" class="call-float">
+  📞 Call Now
+</a>
+
+</body>
+</html>
